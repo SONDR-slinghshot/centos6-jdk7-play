@@ -22,3 +22,5 @@ RUN cd /srv/ && \
 ENV PLAY_PATH=/srv/play-1.2.7
 ENV JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk.x86_64
 ENV PATH=$PATH:$PLAY_PATH
+
+CMD /bin/bash
